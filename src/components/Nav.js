@@ -1,14 +1,8 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faSun } from '@fortawesome/free-solid-svg-icons'
-
 const Nav = props => {
 	const { home, about, resume, projects, contact } = props
 	return (
 		<nav className='pl-6'>
-			{/* <button className='mb-5 text-2xl'>
-				<FontAwesomeIcon icon={faSun} />
-			</button> */}
-			<ul className='Nav font-PF flex flex-col gap-5 text-sm'>
+			<ul className='Nav font-PF flex flex-col gap-5 text-sm lg:text-base'>
 				<li className={home}>
 					<a href='/'>home</a>
 				</li>
@@ -16,7 +10,7 @@ const Nav = props => {
 					<a href='/about'>about</a>
 				</li>
 				<li className={resume}>
-					<a href='/resume'>resume</a>
+					<a href='/resume'>resumé</a>
 				</li>
 				<li className={projects}>
 					<a href='/projects'>projects</a>
