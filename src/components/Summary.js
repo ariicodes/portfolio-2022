@@ -21,8 +21,8 @@ const Summary = () => {
 				<span className='italic font-black text-pale-cerulean'>
 					digital solutions
 				</span>{' '}
-				for analog challenges. Have a look through my portfolio and{' '}
-				<br /><a
+				for analog challenges. Have a look through my portfolio and <br />
+				<a
 					className='italic font-black underline underline-offset-4 decoration-1 text-blush hover:text-cerise active:text-cerise focus:text-cerise'
 					href='/contact'
 				>

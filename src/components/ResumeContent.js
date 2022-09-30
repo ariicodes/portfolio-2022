@@ -13,7 +13,7 @@ const resume = [
 	},
 	{
 		position: 'Retail Sales Representative',
-		date: 'AUG 202 - JUL 2021',
+		date: 'AUG 2020 - JUL 2021',
 		company: 'MarketSource Inc',
 		details: [
 			'• Successfully resolved technical issues involving mobile phones with 96% effeciency.',
@@ -42,21 +42,33 @@ const resume = [
 
 const ResumeContent = () => {
 	return (
-		<div className='font-PF w-9/12 pt-6 pl-6 text-xs absolute left-0 leading-4 md:-left-0.5 lg:text-base lg:w-5/12 lg:mr-40'>
-			{resume.map(job => (
-				<>
-					<h3>
-						<span className="font-bold text-pale-cerulean">{job.position}</span> – {job.date}
-					</h3>
-					<p className="italic">{job.company}</p>
-					<ul className='pb-4'>
-						{job.details.map(i => (
-							<li>{i}</li>
-						))}
-					</ul>
-				</>
-			))}
-            <a className='text-lg font-PFSC font-black text-blush lg:text-2xl' href={Resume}>Download</a>
+		<div className='font-PF w-9/12 pt-6 pl-6 absolute left-0 md:-left-0.5 lg:w-11/12 lg:mr-40 lg:flex lg:flex-col lg:items-end'>
+			<div className='lg:flex lg:gap-2.5'>
+				{resume.map(job => (
+					<>
+						<div className='text-xs lg:text-base lg:w-3/12 lg:leading-5'>
+							<div className='flex gap-1 lg:flex-col lg:gap-0'>
+								<h3 className='font-bold text-pale-cerulean whitespace-nowrap'>
+									{job.position}
+								</h3>
+								<h2 className='whitespace-nowrap lg:text-sm'>– {job.date}</h2>
+							</div>
+							<p className='italic'>{job.company}</p>
+							<ul className='pb-4 lg:text-sm'>
+								{job.details.map(i => (
+									<li>{i}</li>
+								))}
+							</ul>
+						</div>
+					</>
+				))}
+			</div>
+			<a
+				className='text-lg font-PFSC font-black text-blush lg:text-2xl lg:mt-10'
+				href={Resume}
+			>
+				Download
+			</a>
 		</div>
 	)
 }
