@@ -9,7 +9,7 @@ const links = [
 		alt: 'envelope icon',
 	},
 	{
-		destination: 'https://www.linkedin.com/in/ariela-israel/',
+		destination: 'https://www.github.com/ariicodes',
 		src: github,
 		alt: 'github logo',
 	},

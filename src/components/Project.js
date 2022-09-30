@@ -8,10 +8,10 @@ const Project = () => {
 				<div className='flex gap-4'>
 					<div className='w-72 h-32 bg-platinum rounded-md'></div>
 					<div className='flex flex-col justify-around py-3'>
-						<a href=''>
-							<img className='w-6 hover:shadow-2xl hover:shadow-cerise/50' src={github} alt='' />
+						<a href='https://www.github.com/ariicodes' target='_blank' rel='noreferrer'>
+							<img className='w-6' src={github} alt='' />
 						</a>
-						<a href=''>
+						<a href='/'>
 							<img className='w-6' src={link} alt='' />
 						</a>
 					</div>
@@ -22,10 +22,10 @@ const Project = () => {
 				<div className='flex gap-4'>
 					<div className='w-72 h-32 bg-platinum rounded-md'></div>
 					<div className='flex flex-col justify-around py-3'>
-						<a href=''>
+						<a href='https://www.github.com/ariicodes' target='_blank' rel='noreferrer'>
 							<img className='w-6' src={github} alt='' />
 						</a>
-						<a href=''>
+						<a href='/'>
 							<img className='w-6' src={link} alt='' />
 						</a>
 					</div>
@@ -36,10 +36,10 @@ const Project = () => {
 				<div className='flex gap-4'>
 					<div className='w-72 h-32 bg-platinum rounded-md'></div>
 					<div className='flex flex-col justify-around py-3'>
-						<a href=''>
+						<a href='https://www.github.com/ariicodes' target='_blank' rel='noreferrer'>
 							<img className='w-6' src={github} alt='' />
 						</a>
-						<a href=''>
+						<a href='/'>
 							<img className='w-6' src={link} alt='' />
 						</a>
 					</div>
