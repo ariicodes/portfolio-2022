@@ -66,6 +66,7 @@ const ResumeContent = () => {
 			<a
 				className='text-lg font-PFSC font-black text-blush lg:text-2xl lg:mt-10'
 				href={Resume}
+				target='_blank'
 			>
 				Download
 			</a>

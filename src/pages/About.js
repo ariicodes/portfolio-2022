@@ -14,11 +14,11 @@ const About = () => {
 			<div>
 				<div className='flex flex-row justify-between items-end'>
 					<Nav
-						home='hover:text-white-50 active:text-white-50'
+						home='hover:text-white/50 active:text-white/50'
 						about='text-blush italic font-bold'
-						resume='hover:text-white-50 active:text-white-50'
-						projects='hover:text-white-50 active:text-white-50'
-						contact='hover:text-white-50 active:text-white-50'
+						resume='hover:text-white/50 active:text-white/50'
+						projects='hover:text-white/50 active:text-white/50'
+						contact='hover:text-white/50 active:text-white/50'
 					/>
 					<ToolsAndTech />
 				</div>

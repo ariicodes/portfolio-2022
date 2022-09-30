@@ -22,9 +22,9 @@ const links = [
 
 const Socials = () => {
 	return (
-		<ul className='pr-6 self-end'>
+		<ul className='pr-6 self-end pb-20'>
 			{links.map(link => (
-				<li className='pt-6'>
+				<li className='pt-8'>
 					<a href={link.destination}>
 						<img className='w-4 lg:w-6' src={link.src} alt={link.alt} />
 					</a>

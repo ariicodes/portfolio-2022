@@ -8,7 +8,6 @@ module.exports = {
 				'blush': 'rgb(226, 100, 132)',
 				'pale-cerulean': 'rgb(174, 207, 234)',
 				'white': 'rgb(255, 255, 255)',
-				'white-50': 'rgba(255, 255, 255, 0.5)',
 				'black': 'rgb(0, 0, 0)',
 				'cerise': 'rgb(216, 49,91)',
 				'tufts-blue': 'rgb(59, 140, 206)',

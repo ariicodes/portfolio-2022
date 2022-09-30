@@ -13,11 +13,11 @@ const Projects = () => {
 			<div>
 				<div className='flex flex-row justify-between items-end'>
 					<Nav
-						home='hover:text-white-50 active:text-white-50'
-						about='hover:text-white-50 active:text-white-50'
-						resume='hover:text-white-50 active:text-white-50'
+						home='hover:text-white/50 active:text-white/50'
+						about='hover:text-white/50 active:text-white/50'
+						resume='hover:text-white/50 active:text-white/50'
 						projects='text-blush italic font-bold'
-						contact='hover:text-white-50 active:text-white-50'
+						contact='hover:text-white/50 active:text-white/50'
 					/>
 				</div>
 				<Footer />

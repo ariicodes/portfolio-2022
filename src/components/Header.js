@@ -5,7 +5,7 @@ const Header = props => {
 			<h1 className='ml-16 mb-3 -mt-14 text-3xl font-bold font-PFSC'>
 				{heading}
 			</h1>
-			<hr className='-ml-4 p-0 w-96' />
+			<hr className='-ml-4 p-0 w-96 border-white/50' />
 		</header>
 	)
 }

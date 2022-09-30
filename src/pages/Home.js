@@ -15,10 +15,10 @@ const Home = () => {
 				<div className='flex flex-row justify-between items-end'>
 					<Nav
 						home='text-blush italic font-bold'
-						about='hover:text-white-50 active:text-white-50'
-						resume='hover:text-white-50 active:text-white-50'
-						projects='hover:text-white-50 active:text-white-50'
-						contact='hover:text-white-50 active:text-white-50'
+						about='hover:text-white/50 active:text-white/50'
+						resume='hover:text-white/50 active:text-white/50'
+						projects='hover:text-white/50 active:text-white/50'
+						contact='hover:text-white/50 active:text-white/50'
 					/>
 					<img
 						className='w-20 pr-6'
