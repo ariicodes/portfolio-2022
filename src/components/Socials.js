@@ -25,7 +25,7 @@ const Socials = () => {
 		<ul className='pr-6 self-end pb-20'>
 			{links.map(link => (
 				<li className='pt-8'>
-					<a href={link.destination}>
+					<a href={link.destination} target='_blank' rel='noreferrer'>
 						<img className='w-4 lg:w-6' src={link.src} alt={link.alt} />
 					</a>
 				</li>
