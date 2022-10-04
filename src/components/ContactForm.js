@@ -1,7 +1,11 @@
 const ContactForm = () => {
 	return (
 		<div className='font-PF w-8/12 pt-6 pl-6 pr-2 text-sm absolute right-1/3 leading-5 tracking-wide md:-left-0.5 lg:text-base lg:w-8/12 lg:mr-40'>
-			<form onSubmit={handleSubmit} className='flex flex-col gap-6 lg:flex-row lg:gap-10'>
+			<form
+				className='flex flex-col gap-6 lg:flex-row lg:gap-10'
+				action='https://formspree.io/f/mzbwgkwj'
+				method="POST"
+			>
 				<div className='flex flex-col gap-2 lg:w-7/12'>
 					<label htmlFor='first-name'>first name</label>
 					<input
