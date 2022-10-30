@@ -24,21 +24,25 @@ const Project = () => {
 							<img
 								className='w-6'
 								src={github}
-								alt=''
+								alt='github logo'
 							/>
 						</a>
-						<a href='https://shyne-weather.web.app'>
+						<a
+							href='https://shyne-weather.web.app'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<img
 								className='w-6'
 								src={link}
-								alt=''
+								alt='link icon'
 							/>
 						</a>
 					</div>
 				</div>
 				<h2>Shyne Weather</h2>
 			</div>
-			<div className='flex flex-col gap-1.5'>
+			{/* <div className='flex flex-col gap-1.5'>
 				<div className='flex gap-4'>
 					<div className='w-72 h-32 bg-platinum rounded-md'></div>
 					<div className='flex flex-col justify-around py-3'>
@@ -50,21 +54,25 @@ const Project = () => {
 							<img
 								className='w-6'
 								src={github}
-								alt=''
+								alt='github logo'
 							/>
 						</a>
-						<a href='/'>
+						<a
+							href='/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<img
 								className='w-6'
 								src={link}
-								alt=''
+								alt='link icon'
 							/>
 						</a>
 					</div>
 				</div>
 				<h2>project name</h2>
-			</div>
-			<div className='flex flex-col gap-1.5'>
+			</div> */}
+			{/* <div className='flex flex-col gap-1.5'>
 				<div className='flex gap-4'>
 					<div className='w-72 h-32 bg-platinum rounded-md'></div>
 					<div className='flex flex-col justify-around py-3'>
@@ -76,20 +84,24 @@ const Project = () => {
 							<img
 								className='w-6'
 								src={github}
-								alt=''
+								alt='github logo'
 							/>
 						</a>
-						<a href='/'>
+						<a
+							href='/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							<img
 								className='w-6'
 								src={link}
-								alt=''
+								alt='link icon'
 							/>
 						</a>
 					</div>
 				</div>
 				<h2>project name</h2>
-			</div>
+			</div> */}
 		</div>
 	)
 }

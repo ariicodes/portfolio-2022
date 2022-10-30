@@ -9,28 +9,28 @@ const ContactForm = () => {
 				<div className='flex flex-col gap-2 lg:w-7/12'>
 					<label htmlFor='first-name'>first name</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='text'
 						id='first-name'
 						name='first-name'
 					/>
 					<label htmlFor='last-name'>last name</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='text'
 						id='last-name'
 						name='last-name'
 					/>
 					<label htmlFor='phone'>phone</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='tel'
 						id='phone'
 						name='phone'
 					/>
 					<label htmlFor='email'>email</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='email'
 						id='email'
 						name='email'

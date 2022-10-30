@@ -1,4 +1,4 @@
-import Resume from '../assets/ariela-israel-resume-8-2022.pdf'
+import Resume from '../assets/ariela-israel-resume-private-10-2022.pdf'
 
 const resume = [
 	{
