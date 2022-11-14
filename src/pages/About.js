@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Summary from '../components/Summary'
 import ToolsAndTech from '../components/ToolsAndTech'
 
+
 const About = () => {
 	return (
 		<div className='w-screen h-screen flex flex-col justify-between'>
