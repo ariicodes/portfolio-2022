@@ -35,19 +35,27 @@ const list2 = [
 const ToolsAndTech = () => {
 	return (
 		<div className='flex flex-col items-end gap-7 mr-6 mb-10'>
-			<h2 className='text-right text-xl font-PF'>
+			<h2 className='text-right text-xl font-Urbanist'>
 				Tools & <br />
 				Technologies
 			</h2>
 			<div className='flex flex-row gap-6 lg:flex-col'>
 				<div className='flex flex-col gap-6 lg:flex-row'>
 					{list1.map(l => (
-						<img className='h-6 invert lg:h-8' src={l.src} alt={l.alt} />
+						<img
+							className='h-6 invert lg:h-8'
+							src={l.src}
+							alt={l.alt}
+						/>
 					))}
 				</div>
 				<div className='flex flex-col gap-6 lg:flex-row'>
 					{list2.map(l => (
-						<img className='h-6 invert lg:h-8' src={l.src} alt={l.alt} />
+						<img
+							className='h-6 invert lg:h-8'
+							src={l.src}
+							alt={l.alt}
+						/>
 					))}
 				</div>
 			</div>
