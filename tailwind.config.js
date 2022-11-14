@@ -14,8 +14,7 @@ module.exports = {
 				'platinum': 'rgb(224, 224, 225)',
 			},
 			fontFamily: {
-				PFSC: ['Playfair Display SC', 'serif'],
-				PF: ['Playfair Display', 'serif'],
+				Urbanist: ['Urbanist', 'sans-serif'],
 			},
 		},
 	},
