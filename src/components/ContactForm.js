@@ -1,36 +1,36 @@
 const ContactForm = () => {
 	return (
-		<div className='font-PF w-8/12 pt-6 pl-6 pr-2 text-sm absolute right-1/3 leading-5 tracking-wide md:-left-0.5 lg:text-base lg:w-8/12 lg:mr-40'>
+		<div className='font-Urbanist w-8/12 pt-6 pl-6 pr-2 text-sm absolute right-1/3 leading-5 tracking-wide md:-left-0.5 lg:text-base lg:w-8/12 lg:mr-40'>
 			<form
 				className='flex flex-col gap-6 lg:flex-row lg:gap-10'
 				action='https://formspree.io/f/mzbwgkwj'
-				method="POST"
+				method='POST'
 			>
 				<div className='flex flex-col gap-2 lg:w-7/12'>
 					<label htmlFor='first-name'>first name</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='text'
 						id='first-name'
 						name='first-name'
 					/>
 					<label htmlFor='last-name'>last name</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='text'
 						id='last-name'
 						name='last-name'
 					/>
 					<label htmlFor='phone'>phone</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='tel'
 						id='phone'
 						name='phone'
 					/>
 					<label htmlFor='email'>email</label>
 					<input
-						className='bg-transparent border-b-2 border-white/50 outline-none caret-tufts-blue'
+						className='bg-transparent rounded-none border-b-2 border-white/50 outline-none caret-tufts-blue'
 						type='email'
 						id='email'
 						name='email'
@@ -86,14 +86,14 @@ const ContactForm = () => {
 						</label>
 					</div>
 					<textarea
-						className='bg-white/10 border-none border-white/50 outline-none caret-tufts-blue rounded-md p-2'
+						className='bg-white/10 border-none border-white/50 outline-none caret-tufts-blue rounded-md p-2 font-light'
 						name='contact-reason'
 						id='other-details'
 						cols='30'
 						rows='4'
 					></textarea>
 					<input
-						className='font-black font-PFSC text-lg text-right text-blush hover:text-cerise active:text-cerise focus:text-cerise lg:text-xl'
+						className='font-black font-Urbanist text-lg text-right text-blush hover:text-cerise active:text-cerise focus:text-cerise lg:text-xl'
 						type='submit'
 						value='Submit'
 					/>
