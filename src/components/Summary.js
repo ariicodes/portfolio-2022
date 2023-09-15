@@ -1,4 +1,4 @@
-import Resume from '../assets/ariela-israel-resume-private-10-2022.pdf'
+import Resume from '../assets/ariela-israel-resume-8-2023.pdf';
 
 const Summary = () => {
 	return (
@@ -31,10 +31,10 @@ const Summary = () => {
 				target='_blank'
 				rel='noreferrer'
 			>
-				click here for my resumé!
+				click here for my résumé!
 			</a>
 		</div>
-	)
-}
+	);
+};
 
-export default Summary
+export default Summary;
