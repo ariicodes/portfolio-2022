@@ -1,4 +1,4 @@
-import Resume from '../assets/ariela-israel-resume-8-2023.pdf';
+import Resume from '../assets/ariela-israel-resume-11-2023.pdf';
 
 const Summary = () => {
 	return (
