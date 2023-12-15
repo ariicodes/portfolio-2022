@@ -6,7 +6,7 @@ const Project = ({ icon, altText, repo, url, title }) => {
 	return (
 		<div className='flex flex-col gap-1.5'>
 			<div className='flex gap-4'>
-				<div className='flex flex-row justify-center items-center w-28 p-2 bg-gradient-to-b from-blush to-pale-cerulean bg-no-repeat bg-cover rounded-md'>
+				<div className='flex flex-row justify-center items-center w-28 p-2 bg-pale-cerulean bg-no-repeat bg-cover rounded-md'>
 					<img
 						src={icon}
 						alt={altText}
